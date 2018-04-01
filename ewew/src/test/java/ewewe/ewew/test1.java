@@ -14,6 +14,7 @@ public class test1 {
 	WebDriver driver = new ChromeDriver();
 	driver.manage().window().maximize();
 	driver.get("https://www.gmail.com");
+	System.out.println("test");
 
 }
 }
